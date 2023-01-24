@@ -1,8 +1,8 @@
 resources:
-# - secrets/openldap-ltb-secret.yaml
-# - secrets/openldap-stack-ha-secret.yaml
-# - secrets/sh.helm.secret.yaml
-# - secrets/ldap-bind-secret.yaml
+- secrets/openldap-ltb-secret.yaml
+- secrets/openldap-stack-ha-secret.yaml
+- secrets/sh.helm.secret.yaml
+- secrets/ldap-bind-secret.yaml
 
 - configmaps/cm-customdif-stack-ha.yaml
 - configmaps/cm-openldap-phpldapadmin.yaml
